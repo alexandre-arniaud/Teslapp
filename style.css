@@ -326,6 +326,7 @@ li > img {
     bottom: 70%;
     left: 70%;
     transform: scale(0.6);
+    cursor: pointer;
   }
 
   #right_open {
