@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Tesla - Control Panel </title>
+    <link rel="stylesheet" href="style.css">
+    <script async type="text/javascript" src="index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+
+  <body>
+    <section id="left">
+      <section id="bloc_infos">
+          <img id="profile_img" src="img/Profile.PNG" alt="Accéder au profil">
+          <h1 id="car_title">Simone</h1>
+
+        <progress id="charge" value="71" max="100"></progress>
+        <label for="charge">71%</label>
+        <p id="state">Stationnée</button>
+      </section>
+
+      <img id="car" src="img/model3.png" alt="tesla-car"></img>
+
+      <menu id="menu_buttons">
+          <button id="action_button"><img src="img/Button.PNG" width="50px" height="50px" alt="On / Off l'enregistrement"></img></button>
+          <button id="action_button"><img src="img/Fan.PNG" width="50px" height="50px" alt="On / Off la climatisation"></img></button>
+          <button id="action_button"><img src="img/Thunder.PNG" width="50px" height="50px" alt="On / Off la charge"></img></button>
+          <button id="action_button"><img src="img/Hood.PNG" width="50px" height="50px" alt="Ouvrir / Fermer le coffre"></img></button>
+      </menu>
+    </section>
+
+    <section id="right">
+      <ul>
+        <a href="controls.html">
+        <li>
+          <img src="img/Car.PNG" width="40px" height="40px" alt="">
+          <button  class='no-small'>Contrôles
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+      </a>
+        <li>
+          <img src="img/Fan.PNG" width="40px" height="40px">
+          <button>Ventilation
+            <small>Intérieur 23°C</small>
+            <svg class="anormal_svg" width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Cursor.PNG" width="40px" height="40px">
+          <button>Position
+            <small>13 Rue Paul Guigou</small>
+            <svg class="anormal_svg" width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Clock.PNG" width="40px" height="40px">
+          <button class='no-small'>Planifier
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Security.PNG" width="40px" height="40px">
+          <button class='no-small'>Sécurité et conducteurs
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Stat.PNG" width="40px" height="40px">
+          <button class='no-small'>Stats recharge
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Wrench.PNG" width="40px" height="40px">
+          <button class='no-small'>Mises à niveau
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+        <li>
+          <img src="img/Lock.PNG" width="40px" height="40px">
+          <button class='no-small'>Services
+            <svg width="25px" height="25px" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.46967 5.46967C9.76256 5.17678 10.2374 5.17678 10.5303 5.46967L16.5303 11.4697C16.8232 11.7626 16.8232 12.2374 16.5303 12.5303L10.5303 18.5303C10.2374 18.8232 9.76256 18.8232 9.46967 18.5303C9.17678 18.2374 9.17678 17.7626 9.46967 17.4697L14.9393 12L9.46967 6.53033C9.17678 6.23744 9.17678 5.76256 9.46967 5.46967Z" fill="#fff"/>
+            </svg></button>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
